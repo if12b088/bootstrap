@@ -7,6 +7,11 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.process a{
+	color: black;
+	text-decoration: none;
+}
+
 /*icons*/
 .process-begin-icon, .process-end-icon {
 	border: 1px solid black;
@@ -65,11 +70,22 @@ body {
 	background-size: 10%;
 }
 
-.process-decision-view {
+.process-decision-view{
+	background-image: url('../img/icons/diamond-200.png');
+	background-size: 200%;
+	background-repeat: no-repeat;
+	width: 175px; height: 175px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 155px;
+	
+}
+
+.process-decision-view2 {
 	width: 80px;
 	height: 80px;
-	background: ffff66;
-	margin: 3px 0 0 30px;
+	background: #ffff66;
+	padding: 10px;
 	border: 2px solid black;
 	/* Rotate */
 	-webkit-transform: rotate(-45deg);
@@ -83,6 +99,15 @@ body {
 	-ms-transform-origin: 0 100%;
 	-o-transform-origin: 0 100%;
 	transform-origin: 0 100%;
+}
+
+.process-decision-view2 .processtext {
+		/* Rotate */
+	-webkit-transform: rotate(+45deg);
+	-moz-transform: rotate(+45deg);
+	-ms-transform: rotate(+45deg);
+	-o-transform: rotate(+45deg);
+	transform: rotate(+45deg);
 }
 
 .process-hint-view {
