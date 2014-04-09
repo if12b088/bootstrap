@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>EDT-19 Fachgerechte Handhabung von Medikamenten</title>
+
+		<!-- CSS -->
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/bootstrap-3.1.1-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+		<!-- font awesome -->
+		<link href="lib/font-awesome-4.0.3/css/font-awesome.min.css" rel="stylesheet"/>
+		<!-- Sumernote -->
+		<link href="lib/summernote/summernote.css" />
+		<link href="lib/font-awesome-4.0.3/css/font-awesome.min.css">
+		<!-- my -->
+		<link href="css/my.css" rel="stylesheet" />
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+
+			<form class="form-horizontal" role="form">
+
+				<div class="form-group">
+					<label class="col-sm-1" for="nr">Nr:</label>
+					<div class="col-sm-1">
+						<input class="form-control" id="nr" name="nr" />
+					</div>
+					<label class="col-sm-1" for="name">Name:</label>
+					<div class="col-sm-9">
+						<input class="form-control" id="name" name="name" />
+					</div><!-- end formgroup -->
+				</div>
+				<div class="form-group">
+					<label class="col-sm-1" for="kat">Kategorie:</label>
+					<div class="col-sm-3">
+						<select class="form-control">
+							<option>ED</option>
+							<option>AD</option>
+							<option>TD</option>
+						</select>
+					</div>
+					<label class="col-sm-1" for="tags">Tags:</label>
+					<div class="col-sm-7">
+						<input class="form-control" id="tags" name="tags" />
+					</div>
+				</div><!-- end formgroup -->
+
+				<button type="submit" class="btn btn-default">
+					Submit
+				</button>
+			</form>
+
+			<!-- begin dynamic -->
+			<div class="begin"></div>
+			<div class="prozessstep">
+				<span class="begin">&nbsp;&nbsp;&nbsp;&nbsp;</span> Handhabung von Medikamienten
+			</div>
+
+			<textarea id="summernote"></textarea>
+
+			<!-- end dynamic -->
+
+		</div><!-- end containter -->
+
+		<!-- JS -->
+		<!-- jQuery  -->
+		<script src="lib/jquery/jquery-1.9.1.js"></script>
+		<!-- Bootstrap -->
+		<script src="lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+		<!-- include summernote js-->
+		<script src="lib/summernote/summernote.min.js"></script>
+		<!-- my -->
+		<script src="js/my.js"></script>
+	</body>
+</html>
