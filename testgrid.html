@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>EDT-19 Fachgerechte Handhabung von Medikamenten</title>
+		<title>ED1-001 Hilfe in der Not</title>
 
 		<!-- CSS -->
 		<!-- jquery ui -->
@@ -29,50 +29,20 @@
 	</head>
 	<body>
 		<div class="container">
-
-			<form class="form-horizontal" role="form">
-
-				<div class="form-group">
-					<label class="col-sm-1" for="nr">Nr:</label>
-					<div class="col-sm-1">
-						<input class="form-control" id="nr" name="nr" />
-					</div>
-					<label class="col-sm-1" for="name">Name:</label>
-					<div class="col-sm-9">
-						<input class="form-control" id="name" name="name" />
-					</div><!-- end formgroup -->
-				</div>
-				<div class="form-group">
-					<label class="col-sm-1" for="kat">Kategorie:</label>
-					<div class="col-sm-3">
-						<select class="form-control">
-							<option>ED</option>
-							<option>AD</option>
-							<option>TD</option>
-						</select>
-					</div>
-					<label class="col-sm-1" for="tags">Tags:</label>
-					<div class="col-sm-7">
-						<input class="form-control" id="tags" name="tags" />
-					</div>
-				</div><!-- end formgroup -->
-
-				<button type="submit" class="btn btn-default">
-					Submit
-				</button>
-			</form>
-
-			<!-- begin dynamic -->
-			<div class="begin"></div>
-			<div class="prozessstep">
-				<span class="begin">&nbsp;&nbsp;&nbsp;&nbsp;</span> Handhabung von Medikamienten
+			<div class="row">
+				<div class="col-xs-2 col-xs-offset-5 process process-begin-view">Fachgerechte Handhabung von Medikamente</div>
 			</div>
-
-			<textarea id="summernote"></textarea>
-
-			<!-- end dynamic -->
-
-		</div><!-- end containter -->
+			<div class="row">
+				<div class="col-xs-2 col-xs-offset-5 process process-step-view">Prozess Step ist hier mit viel Text</div>
+			</div>
+						<div class="row">
+				<div class="col-xs-2 col-xs-offset-5 process process-decision-view diamond">Entscheidung?</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2 col-xs-offset-3 process process-step-view">Entscheidung 1 wurde getroffen blh blh</div>
+				<div class="col-xs-2 col-xs-offset-2 process process-step-view">Entscheidung 2 wurde getroffen blh blh</div>
+			</div>			
+		</div>
 
 		<!-- JS -->
 		<!-- jQuery  -->

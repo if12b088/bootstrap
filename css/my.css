@@ -1,4 +1,98 @@
-body {margin-top: 20px}
-.prozessstep {margin: 10px auto; float: none}
-.begin, .end {border: 1px solid black; border-radius: 7px; height: 20px; width: 20px; margin-top: 20px}
- #editor {overflow:scroll; max-height:300px}
+body {
+	margin-top: 20px
+}
+
+.process {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*icons*/
+.process-begin-icon, .process-end-icon {
+	border: 1px solid black;
+	border-radius: 7px;
+	height: 20px;
+	width: 20px;
+	margin-top: 20px
+}
+
+.process-step-icon {
+
+}
+
+.process-decision-icon {
+
+}
+
+.process-hint-icon {
+
+}
+
+.process-link-intern-icon {
+
+}
+
+.process-link-extern-icon {
+
+}
+
+/*views*/
+.process-begin-view, .process-end-view {
+	border: 2px solid black;
+	border-radius: 7px;
+	color: red;
+}
+
+.process-step-view {
+	border: 1px solid black;
+}
+
+.process-step-view:before, .process-step-view:after {
+	content: '';
+	position: absolute;
+	top: -60px;
+	right: 50%;
+	border-top: 1px solid black;
+	width: 50%;
+	height: 60px;
+}
+
+.process-step-view:after {
+	right: auto;
+	left: 50%;
+	background-image: url('../img/icons/arrow-500.png');
+	background-repeat: no-repeat;
+	background-size: 10%;
+}
+
+.process-decision-view {
+	width: 80px;
+	height: 80px;
+	background: ffff66;
+	margin: 3px 0 0 30px;
+	border: 2px solid black;
+	/* Rotate */
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	/* Rotate Origin */
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+
+.process-hint-view {
+
+}
+
+.process-link-intern-view {
+
+}
+
+.process-link-extern-view {
+
+}
