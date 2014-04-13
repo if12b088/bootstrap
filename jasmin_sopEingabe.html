@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>EDT-19 Fachgerechte Handhabung von Medikamenten</title>
+
+		<!-- CSS -->
+		<!-- jquery ui -->
+		<link href="lib/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.min.css" />
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="lib/bootstrap-3.1.1-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+		<!-- font awesome -->
+		<link href="lib/font-awesome-4.0.3/css/font-awesome.min.css" rel="stylesheet"/>
+		<!-- Sumernote -->
+		<link href="lib/summernote/summernote.css" />
+		<link href="lib/font-awesome-4.0.3/css/font-awesome.min.css">
+		<!-- my -->
+		<link href="css/my.css" rel="stylesheet" />
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+
+		<div class="page-header">
+		  <h1>SOP Verwaltung <small>Anlage einer neuen SOP</small></h1>
+		</div>
+		
+			<form class="form-horizontal" role="form">
+
+				<div class="form-group">
+					<label class="col-sm-1 control-label" for="kat">Kategorie:</label>
+					<div class="col-sm-2">
+						<select class="form-control">
+							<option>ED</option>
+							<option>AD</option>
+							<option>TD</option>
+						</select>
+					</div>
+					
+					<label class="col-sm-1 control-label" for="nr">Nr:</label>
+					<div class="col-sm-1">
+						<input class="form-control" id="nr" name="nr" />
+					</div>
+					
+					<label class="col-sm-1 control-label" for="name">Name:</label>
+					<div class="col-sm-6">
+						<input class="form-control" id="name" name="name" />
+					</div><!-- end formgroup -->
+				</div>
+				
+				<div class="form-group">
+					<label class="col-sm-1 control-label" for="tags">Tags:</label>
+					<div class="col-sm-11">
+						<input class="form-control" id="tags" name="tags" />
+					</div>
+				</div><!-- end formgroup -->
+
+				<button type="submit" class="btn btn-primary btn-block">
+					SOP speichern
+				</button>
+			</form>
+			
+			<br><br>
+
+			<!-- begin dynamic -->
+			
+			<div class="summernote">summernote 1</div>
+			<div class="summernote">summernote 2</div>
+			
+			<!-- end dynamic -->
+
+		</div><!-- end containter -->
+
+		<!-- JS -->
+		<!-- jQuery  -->
+		<script src="lib/jquery-core/jquery-1.10.2.js"></script>
+		<script src="lib/jquery-ui/js/jquery-ui-1.10.4.min.js" ></script>
+		<!-- Bootstrap -->
+		<script src="lib/bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
+		<!-- include summernote js-->
+		<script src="lib/summernote/summernote.min.js"></script>
+		<!-- my -->
+		<script src="js/jasmin_my.js"></script>
+	</body>
+</html>
