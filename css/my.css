@@ -14,27 +14,39 @@ body {
 
 /*icons*/
 .process-begin-icon, .process-end-icon {
-	border: 1px solid black;
+	background-image: url('../img/icons/beginEnd.png');
+	background-repeat: no-repeat;
+	background-size: 2%;
+		
+	/*border: 1px solid black;
 	border-radius: 7px;
 	height: 20px;
 	width: 20px;
-	margin-top: 20px
+	margin-top: 20px*/
 }
 
 .process-step-icon {
-
+background-image: url('../img/icons/beginEnd.png');
+	background-repeat: no-repeat;
+	background-size: 2%;
 }
 
 .process-decision-icon {
-
+background-image: url('../img/icons/beginEnd.png');
+	background-repeat: no-repeat;
+	background-size: 2%;
 }
 
 .process-hint-icon {
-
+background-image: url('../img/icons/beginEnd.png');
+	background-repeat: no-repeat;
+	background-size: 2%;
 }
 
 .process-link-intern-icon {
-
+background-image: url('../img/icons/beginEnd.png');
+	background-repeat: no-repeat;
+	background-size: 2%;
 }
 
 .process-link-extern-icon {
